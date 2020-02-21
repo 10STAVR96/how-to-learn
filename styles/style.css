@@ -350,17 +350,20 @@
 }
 
 .footer__column-links {
-    line-height: 30px;
-    font-size: 18px;
     margin-top: 20px;
     margin-bottom: 16px;
-    text-decoration: none;
     list-style: none;
     padding: 0;
+}
+
+.footer__column-link {
+    line-height: 30px;
+    font-size: 18px;
+    text-decoration: none;
     color: white;
 }
 
-.footer__column-links:hover {
+.footer__column-link:hover {
     color: green;
 }
 
