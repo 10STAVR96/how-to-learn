@@ -1,0 +1,9 @@
+.resources__logo {
+    width: 270px;
+    height: 38px;
+}
+
+.resources__logo:hover { /*этот эффект добавил от себя*/
+    box-shadow: 0 0 20px 5px red;
+    transition: box-shadow .5s linear;
+}

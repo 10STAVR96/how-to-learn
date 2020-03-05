@@ -1,0 +1,12 @@
+@keyframes spin {
+    from {
+        transform: rotate(-15deg);
+    }
+    to {
+        transform: rotate(345deg);
+    }
+}
+
+.rotation {
+    animation: spin 20s linear infinite;
+}
