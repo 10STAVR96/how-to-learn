@@ -138,11 +138,12 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. 
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. 
             Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся 
-            повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
-          <p class="knan__quote-author">Джордж Лукас</p>
-          <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
+            повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
+            <p class="knan__quote-author">Джордж Лукас</p>
+            <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
+          </blockquote>
           <div class="khan__book-container">
             <img class="khan__book-pic" src="images/book.jpg" alt="Книга 'Весь мир - школа' автор Салман Хан">
             <a class="khan__buy-link" href="">Купить книгу &#8594;</a>
@@ -201,12 +202,20 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <img class="resources__logo" src="images/logo/arzamas.svg" alt="логотип Арзамас">
-          <img class="resources__logo" src="images/logo/n1.svg" alt="логотип Н+1">
-          <img class="resources__logo" src="images/logo/strelka.svg" alt="логотип Стрелка">
-          <img class="resources__logo" src="images/logo/polka.svg" alt="логотип Полка">
-        </div>
+        <ul class="resources__logo-zone">
+          <li>
+            <a href=""><img class="resources__logo" src="images/logo/arzamas.svg" alt="логотип Арзамас"></a>
+          </li>
+          <li>
+            <a href=""><img class="resources__logo" src="images/logo/n1.svg" alt="логотип Н+1"></a>
+          </li>
+          <li>
+            <a href=""><img class="resources__logo" src="images/logo/strelka.svg" alt="логотип Стрелка"></a>
+          </li>
+          <li>
+            <a href=""><img class="resources__logo" src="images/logo/polka.svg" alt="логотип Полка"></a>
+          </li>
+        </ul>
       </section>
     </main>
 
@@ -216,7 +225,7 @@
           <img class="logo logo_place_footer" src="images/logo/logo_white.svg" alt="логотип Яндекс Практикума">
           <p class="footer__author">&copy; 2020. Виталий Максимов</p>
         </div>
-        <div class="footer__column footer__column_content_info">
+        <nav class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
           <ul class="footer__column-links">
             <li>
@@ -229,8 +238,8 @@
               <a class="footer__column-link" href="">Наставники</a>
             </li>
           </ul>
-        </div>
-        <div class="footer__column footer__column_content_social">
+        </nav>
+        <nav class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">
             <li>
@@ -243,7 +252,7 @@
               <a class="footer__column-link" href="https://www.instagram.com/"><img class="footer__social-icon" src="images/logo/instagram_white.svg" alt="иконка Инстаграмм"> Instagram</a>
             </li>
           </ul>
-        </div>
+        </nav>
       </div>
     </footer>
   </div>
