@@ -5,5 +5,7 @@
 
 .resources__logo:hover { /*этот эффект добавил от себя*/
     box-shadow: 0 0 20px 5px red;
-    transition: box-shadow .5s linear;
+    opacity: 0.5;
+    transition: box-shadow .5s linear,
+                opacity .5s linear;
 }
